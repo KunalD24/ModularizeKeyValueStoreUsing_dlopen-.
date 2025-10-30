@@ -156,6 +156,3 @@ int main(void)
     dlclose(handle);
     return 0;
 }
-
-// gcc -fPIC -shared -o libkvstore.so kv_store_dynamic.c
-// gcc server.c -ldl -o kv_server
